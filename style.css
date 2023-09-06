@@ -1,0 +1,652 @@
+/* Estilos CSS personalizados */
+
+@font-face {
+  font-family: 'Codec Pro Fat';
+  src: url('assets/fonts/CodecPro-FatItalic.eot');
+  src: local('Codec Pro Fat Italic'), local('CodecPro-FatItalic'),
+      url('assets/fonts/CodecPro-FatItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-FatItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-FatItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-FatItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-ThinItalic.eot');
+  src: local('Codec Pro Thin Italic'), local('CodecPro-ThinItalic'),
+      url('assets/fonts/CodecPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-ThinItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-ThinItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro Fat';
+  src: url('assets/fonts/CodecPro-Fat.eot');
+  src: local('Codec Pro Fat'), local('CodecPro-Fat'),
+      url('assets/fonts/CodecPro-Fat.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Fat.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Fat.woff') format('woff'),
+      url('assets/fonts/CodecPro-Fat.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-ExtraBoldItalic.eot');
+  src: local('Codec Pro ExtraBold Italic'), local('CodecPro-ExtraBoldItalic'),
+      url('assets/fonts/CodecPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-ExtraBoldItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-ExtraBoldItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-BoldItalic.eot');
+  src: local('Codec Pro Bold Italic'), local('CodecPro-BoldItalic'),
+      url('assets/fonts/CodecPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-BoldItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-BoldItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-BoldItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro News';
+  src: url('assets/fonts/CodecPro-News.eot');
+  src: local('Codec Pro News'), local('CodecPro-News'),
+      url('assets/fonts/CodecPro-News.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-News.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-News.woff') format('woff'),
+      url('assets/fonts/CodecPro-News.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-Heavy.eot');
+  src: local('Codec Pro Heavy'), local('CodecPro-Heavy'),
+      url('assets/fonts/CodecPro-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Heavy.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Heavy.woff') format('woff'),
+      url('assets/fonts/CodecPro-Heavy.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-Thin.eot');
+  src: local('Codec Pro Thin'), local('CodecPro-Thin'),
+      url('assets/fonts/CodecPro-Thin.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Thin.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Thin.woff') format('woff'),
+      url('assets/fonts/CodecPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro Ultra';
+  src: url('assets/fonts/CodecPro-UltraItalic.eot');
+  src: local('Codec Pro Ultra Italic'), local('CodecPro-UltraItalic'),
+      url('assets/fonts/CodecPro-UltraItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-UltraItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-UltraItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-UltraItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-HeavyItalic.eot');
+  src: local('Codec Pro Heavy Italic'), local('CodecPro-HeavyItalic'),
+      url('assets/fonts/CodecPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-HeavyItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-HeavyItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-HeavyItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-Bold.eot');
+  src: local('Codec Pro Bold'), local('CodecPro-Bold'),
+      url('assets/fonts/CodecPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Bold.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Bold.woff') format('woff'),
+      url('assets/fonts/CodecPro-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro News';
+  src: url('assets/fonts/CodecPro-NewsItalic.eot');
+  src: local('Codec Pro News Italic'), local('CodecPro-NewsItalic'),
+      url('assets/fonts/CodecPro-NewsItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-NewsItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-NewsItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-NewsItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-Light.eot');
+  src: local('Codec Pro Light'), local('CodecPro-Light'),
+      url('assets/fonts/CodecPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Light.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Light.woff') format('woff'),
+      url('assets/fonts/CodecPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-ExtraBold.eot');
+  src: local('Codec Pro ExtraBold'), local('CodecPro-ExtraBold'),
+      url('assets/fonts/CodecPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-ExtraBold.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-ExtraBold.woff') format('woff'),
+      url('assets/fonts/CodecPro-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro Ultra';
+  src: url('assets/fonts/CodecPro-Ultra.eot');
+  src: local('Codec Pro Ultra'), local('CodecPro-Ultra'),
+      url('assets/fonts/CodecPro-Ultra.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-Ultra.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-Ultra.woff') format('woff'),
+      url('assets/fonts/CodecPro-Ultra.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro UltraBlack';
+  src: url('assets/fonts/CodecPro-UltraBlackItalic.eot');
+  src: local('Codec Pro UltraBlack Italic'), local('CodecPro-UltraBlackItalic'),
+      url('assets/fonts/CodecPro-UltraBlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-UltraBlackItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-UltraBlackItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-UltraBlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro UltraBlack';
+  src: url('assets/fonts/CodecPro-UltraBlack.eot');
+  src: local('Codec Pro UltraBlack'), local('CodecPro-UltraBlack'),
+      url('assets/fonts/CodecPro-UltraBlack.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-UltraBlack.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-UltraBlack.woff') format('woff'),
+      url('assets/fonts/CodecPro-UltraBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-ExtraLightItalic.eot');
+  src: local('Codec Pro ExtraLight Italic'), local('CodecPro-ExtraLightItalic'),
+      url('assets/fonts/CodecPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-ExtraLightItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-ExtraLightItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('assets/fonts/CodecPro-LightItalic.eot');
+  src: local('Codec Pro Light Italic'), local('CodecPro-LightItalic'),
+      url('assets/fonts/CodecPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/CodecPro-LightItalic.woff2') format('woff2'),
+      url('assets/fonts/CodecPro-LightItalic.woff') format('woff'),
+      url('assets/fonts/CodecPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+/* Estilizando o corpo da página */
+body {
+  /*display: flex;*/
+  background-color: #0f1728; /*#0C2365;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  font-family: 'Codec Pro', Arial, sans-serif;
+}
+
+section{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* Estilizando o cabeçalho */
+header {
+  /*background-color: #f8f9fa;
+  padding: 20px;*/
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header img.header-logo{
+  max-width: 40%;
+}
+
+main h2{
+  padding: 10px;
+}
+
+section.description-section{
+  padding: 20px 20px 0px 20px;
+  margin: 0 auto;
+}
+
+/* Estilos para a seção de descrição */
+
+.description-section {
+  text-align: center;
+}
+
+.description-section h2 {
+  text-align: center;
+}
+
+.evaluation{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-p{
+  font-size: 16px;
+}
+
+.legend{
+  font-size: 10px;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+}
+
+.legend-2{
+  font-size: 13px;
+  /*padding-left: 25px;
+  padding-right: 25px;*/
+}
+
+.evaluation p{
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+}
+
+/* Estilos para a seção de download */
+.download-section {
+  text-align: center;
+  font-family: 'Codec Pro', Arial, sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+}
+
+.download-section h2{
+  text-align: center;
+  font-family: 'Codec Pro', Arial, sans-serif;
+  font-size: 27px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.download-section a{
+  color: black;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.download-section img{
+  text-align: center;
+  font-family: 'Codec Pro', Arial, sans-serif;
+  font-size: 40px;
+  
+}
+
+.demo-section p{
+  font-size: 13px;
+}
+
+/* Estilos para a seção de instalação */
+.installation-section {
+  text-align: justify;
+  padding-top: 20px;
+  /*padding-bottom: 20px;*/
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.installation-section h2{
+  text-align: center;
+  font-family: 'Codec Pro', Arial, sans-serif;
+  font-size: 27px;
+}
+
+
+.installation-section p#centralized{
+  text-align: center;
+  color: #57E4FF;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.installation-section h2{
+  text-align: center;
+}
+
+#myCarousel {
+  min-height: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  background: radial-gradient(circle at 50% 50%, #5de0e6, #004aad, #101728);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 0 auto;
+}
+
+#myCarousel span#carousel-control-prev-icon{
+  background-color: #5de0e6;
+}
+
+.helper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#myCarouselVideo {
+  min-height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  z-index: 1;
+  background: radial-gradient(circle at 50% 50%, #101728, #5de0e6, #004aad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 0 auto;
+}
+
+#myCarouselVideo video{
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.carousel-item {
+  margin-right: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: transform .2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.carousel-item p {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item img {
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.installation-section .carousel-control-next, .installation-section .carousel-control-prev{
+  text-decoration: none;
+  color:aqua;
+  font-size: 40px;
+}
+
+
+.demo-section .carousel-control-next, .demo-section .carousel-control-prev{
+  text-decoration: none;
+  color:#0C2365;
+  font-size: 40px;
+}
+.demo-section h2{
+  margin-bottom: 30px;
+  font-size: 27px;
+}
+
+.video-settings {
+  max-width: 90%;
+}
+
+/* Estilos para a seção de demonstração */
+.demo-section {
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 40px;
+}
+
+/* Estilos para a seção de research */
+.research-section {
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 10px;
+}
+
+.research-section p{
+  font-size: 12px;
+  
+}
+
+.research-section h3{
+  background: linear-gradient(to right, #235A86, #57E4FF);
+    border-radius: 30px;
+    color: black;
+    font-size: 21px;
+    padding-top: 10px;
+    width: 300px;
+    padding-bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.research-section h3 a{
+  color: black;
+}
+
+a[disabled="disabled"] {
+  pointer-events: none;
+}
+
+.info-section {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10px 30px 40px 30px;
+  font-size: 14px;
+}
+
+.info-section h2{
+  font-size: 27px;
+}
+
+.info-section p span{
+  font-weight: bold;
+  color: #41f56b;
+}
+
+/* Estilizando as seções */
+/*section {
+  margin-bottom: 40px;
+}*/
+
+section h2 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+/* Estilizando o botão de download */
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.ios {
+  background-color: #007bff;
+}
+
+.android {
+  background: linear-gradient(to right, #235A86, #57E4FF);
+  color: #ffffff;
+  /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);*/
+  /* Outras propriedades do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Estilizando as imagens */
+img {
+  max-width: 100%;
+}
+
+/* Estilizando o rodapé */
+footer {
+  margin-top: 50px;
+  background-color: black;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  z-index: 2;
+}
+
+/* Estilos específicos para cada tamanho de tela usando as classes do Bootstrap */
+@media (min-width: 576px) {
+  /* Estilos para telas pequenas (celulares em modo retrato) */
+  header {
+    padding: 40px;
+  }
+
+  #myCarousel, #myCarouselVideo{
+    max-width: 70%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  /* Estilos para telas médias (tablets e celulares em modo paisagem) */
+  header img.header-logo{
+    max-width: 40%;
+  }
+  section {
+    padding: 20px;
+  }
+
+  #myCarousel, #myCarouselVideo{
+    max-width: 60%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  /* Estilos para telas grandes (computadores desktop) */
+  header img.header-logo{
+    max-width: 30%;
+  }
+
+  #myCarousel, #myCarouselVideo{
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Estilos para telas extra grandes (computadores desktop com telas maiores) */
+  header img.header-logo{
+    max-width: 20%;
+  }
+
+
+  #myCarousel, #myCarouselVideo{
+    max-width: 30%;
+  }
+
+
+}
