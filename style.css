@@ -228,6 +228,17 @@
   font-style: italic;
 }
 
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* Estilizando o corpo da página */
 body {
@@ -260,7 +271,7 @@ header h1 {
 }
 
 header img.header-logo{
-  max-width: 40%;
+  max-width: 50%;
 }
 
 main h2{
@@ -301,7 +312,7 @@ section.description-section{
 }
 
 .legend{
-  font-size: 10px;
+  font-size: 13px;
   /*padding-left: 50px;
   padding-right: 50px;*/
 }
@@ -490,17 +501,17 @@ section.description-section{
 /* Estilos para a seção de research */
 .research-section {
   text-align: center;
-  padding: 0px 30px 0px 30px;
+  padding: 20px 30px 30px 30px;
   margin-bottom: 10px;
 }
 
 .research-section p{
-  font-size: 12px;
+  font-size: 14px;
   
 }
 
 .research-section h3{
-  background: linear-gradient(to right, #235A86, #57E4FF);
+  background: linear-gradient(to right, #57E4FF, #57E4FF);
     border-radius: 30px;
     color: black;
     font-size: 21px;
@@ -511,10 +522,12 @@ section.description-section{
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    animation: pulsar 2s infinite;
 }
 
 .research-section h3 a{
   color: black;
+  text-decoration: none;
 }
 
 a[disabled="disabled"] {
@@ -555,6 +568,7 @@ section h2 {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  animation: pulsar 2s infinite;
 }
 
 .logo {
@@ -594,7 +608,7 @@ footer {
   color: white;
   bottom: 0;
   width: 100%;
-  font-size: 10px;
+  font-size: 12px;
   z-index: 2;
 }
 
